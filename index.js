@@ -48,6 +48,7 @@ async function run() {
 
   fs.writeFileSync('./index.html', `<img src="${res}">`);
   console.log('Wrote to ./qr.html');
+	window.location = window.location.href;
 }
   }
 );
